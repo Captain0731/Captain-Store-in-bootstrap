@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captain Store - Clothing Sale</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg- bg-Primary  ">
+        <div class="container">
+            <a class="navbar-brand" href="#">Captain Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="ms-3">
+                    <a href="login.html" class="btn btn-outline-light me-2">Login</a>
+                    <a href="singup.html" class="btn btn-light">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section d-flex align-items-center justify-content-between py-5">
+        <div class="container">
+            <span class="sale-badge">SALE</span>
+            <h1>Biggest Clothe Sale</h1>
+            <h2 class="text-muted">Up To 50% Off</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aique culpa, totam sed maxime animi facilis!</p>
+            <a href="#" class="btn-shop">Shop Now</a>
+
+           
+        </div>
+         <div class="hero-img d-none d-md-block">
+                <img src="images/b2.png" alt="Hero Image">
+            </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="py-5" id="product-cards">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-5 mx-auto">
+                    <div class="product-card ">
+                        <div class="product-img">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="p-3 product-info">
+                            <h3>Smart Watch</h3>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ratione!</p>
+                            <div class="d-flex justify-content-around align-items-center">
+                                <div>
+                                    <span class="product-price">$220.30</span>
+                                    <span class="old-price">$250.10</span>
+                                </div>
+                                <a href="#" class="btn btn-sm btn-primary">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5 mx-auto">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <i class="fas fa-shoe-prints"></i>
+                        </div>
+                        <div class="p-3">
+                            <h3>Nike Shoes</h3>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ratione!</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="product-price">$215.10</span>
+                                    <span class="old-price">$250.10</span>
+                                </div>
+                                <a href="#" class="btn btn-sm btn-primary">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5 mx-auto">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <div class="p-3">
+                            <h3>Bag</h3>
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, ratione!</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="product-price">$240.40</span>
+                                </div>
+                                <a href="#" class="btn btn-sm btn-primary">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sale Banner -->
+    <section class="py-5 btn-dark products-section">
+        <div class="container text-center">
+            <h2>Get Up To 50% Off</h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, animi?</p>
+            <a href="#" class="btn btn-primary btn-lg">SHOP NOW</a>
+            <p class="mt-3">Tamaria</p>
+        </div>
+    </section>
+
+    <!-- More Products -->
+  <!-- product cards -->
+    <div class="container" id="product-cards">
+        <h1 class="text-center">PRODUCT</h1>
+        <div class="row" style="margin-top: 30px; margin-bottom: 30px;margin-left: 20px;">
+            <div class="col-md-6 col-lg-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/p13.png" alt="">
+                    <div class="card-body">
+                        <h3>Men T-Shirt</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>₹320.60 <strike>₹50</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-md-6 col-lg-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/p14.png" alt="">
+                    <div class="card-body">
+                        <h3>Purple Heel</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>₹560.50 <strike>₹60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div> -->
+            <div class="col-md-6 col-lg-4 py-3 py-md-2">
+                <div class="card">
+                    <img src="images/p15.png" alt="">
+                    <div class="card-body">
+                        <h3>Men Shoes</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>₹1500.5 <strike>₹160.50</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 py-3 py-md-2">
+                <div class="card">
+                    <img src="images/p16.png" alt="">
+                    <div class="card-body">
+                        <h3>Men Jacket</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>₹520.60 <strike>₹56.90</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-6 col-lg-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/p17.png" alt="">
+                    <div class="card-body">
+                        <h3>Blue T-Shirt</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>₹500.60 <strike>₹10.50</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/p18.png" alt="">
+                    <div class="card-body">
+                        <h3>Girls Sandal</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>₹250.30 <strike>₹5</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 py-3 py-md-2">
+                <div class="card">
+                    <img src="images/p2.png" alt="">
+                    <div class="card-body">
+                        <h3>Men Jacket</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>₹300.2 <strike>₹5.60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-md-6 col-lg-4 py-3 py-md-2">
+                <div class="card">
+                    <img src="images/p20.png" alt="">
+                    <div class="card-body">
+                        <h3>Men T-SHirt</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>₹100.50 <strike>₹15.60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <a href="#" id="viewmorebtn">View More</a>
+    </div>
+    <!-- product cards -->
+
+   
+
+    <!-- Product List -->
+    <section class="py-5 pro-list">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6  col-lg-4 col-6 mb-4">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0">
+                            <i class="fas fa-female fs-1 text-muted me-3"></i>
+                        </div>
+                        <div>
+                            <h5>Girls Heel</h5>
+                            <p class="text-muted small">Lorem ipsum dolor sit amet.</p>
+                            <div class="text-muted small">4120023 346-66</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-6 mb-4">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0">
+                            <i class="fas fa-hoodie fs-1 text-muted me-3"></i>
+                        </div>
+                        <div>
+                            <h5>Men Hoodie</h5>
+                            <p class="text-muted small">Lorem ipsum dolor sit amet.</p>
+                            <div class="text-muted small">42000,12 846-66</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6  col-lg-4 col-6 mb-4">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0">
+                            <i class="fas fa-clock fs-1 text-muted me-3"></i>
+                        </div>
+                        <div>
+                            <h5>Smart Watch</h5>
+                            <p class="text-muted small">Lorem ipsum dolor sit amet.</p>
+                            <div class="text-muted small">42000,12 846-66</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-6 mb-4">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0">
+                            <i class="fas fa-tshirt fs-1 text-muted me-3"></i>
+                        </div>
+                        <div>
+                            <h5>Men T-Shirt</h5>
+                            <p class="text-muted small">Lorem ipsum dolor sit amet.</p>
+                            <div class="text-muted small">42002,5 846-66</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-6 mb-4">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0">
+                            <i class="fas fa-shopping-bag fs-1 text-muted me-3"></i>
+                        </div>
+                        <div>
+                            <h5>Hand Bag</h5>
+                            <p class="text-muted small">Lorem ipsum dolor sit amet.</p>
+                            <div class="text-muted small">4100023 346-66</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4  col-6 mb-4">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0">
+                            <i class="fas fa-running fs-1 text-muted me-3"></i>
+                        </div>
+                        <div>
+                            <h5>Sport Shoes</h5>
+                            <p class="text-muted small">Lorem ipsum dolor sit amet.</p>
+                            <div class="text-muted small">42530,03 646-66</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+   
+
+    <!-- Features -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                        <h3>Free Shipping</h3>
+                        <p class="text-muted">On order over $100</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <h3>Fast Delivery</h3>
+                        <p class="text-muted">World wide</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-box-open"></i>
+                        </div>
+                        <h3>Big Choice</h3>
+                        <p class="text-muted">Of product</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    
+
+    
+
+    
+
+
+
+    <footer class="py-5   ">
+        <div class="container  ">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h3>Captain Store</h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, his?</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Ahmedabad, Sumt, Right</p>
+                        <p><i class="fas fa-phone"></i> Phone: +0000000000000000</p>
+                        <p><i class="fas fa-envelope"></i> Email: example@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Useful Links</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Our Services</h5>
+                    <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mobi, rem!</p>
+                    <ul>
+                        <li><a href="#">Smart phone</a></li>
+                        <li><a href="#">Smart watch</a></li>
+                        <li><a href="#">Airpods</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-1">
+                    <h5>Our Social Network</h5>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ad?</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
